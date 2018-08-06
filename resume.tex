@@ -1,0 +1,73 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}  
+
+% possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage{setspace}
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn} 
+
+% personal data
+\name{杨}{潇}
+\title{前端工程师}
+
+\address{
+即刻ID：Yanng\\
+Phone:17621924440\\
+MyBlog：https://yanng.io\\
+E-mail：y719398840@gmail.com\\
+GitHub：https://github.com/xia0bs
+}
+
+\photo[64pt][0.4pt]{img}
+
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\begin{spacing}{1.4}
+\section{个人介绍}
+\cvline{}{拥有一年以上开发经验。热爱前端，并积极迭代自身技能。保持洁癖般的代码书写习惯，学习能力强。即刻资深用户，并渴望帮扶即刻做大做强。}
+
+\section{掌握技能}
+\cvlistitem{熟练掌握HTML/CSS/JavaScript；}
+\cvlistitem{了解node.js，使用Webpack进行模块化开发；}
+\cvlistitem{了解Vue开发，并开始自学React开发；}
+\cvlistitem{了解jQuery、mysql、Bootstrap、LaTex等语法和诸多npm插件的使用；}
+\cvlistitem{有Markdown书写技术文档习惯，使用GitHub进行项目的协同开发。}
+
+\section{项目经历}
+\cvitem{2017}{做过大量电商平台页面的仿写，百分百还原设计稿；}
+\cvitem{2018/06}{用Vue+Express协同开发整套「晋彤」电商平台。主要负责前后台页面的布局，以及为后端预留开发接口；}
+\cvitem{Now}{参与开发有关分析即刻用户星座的小项目，目前正在进行中。}
+
+\section{教育背景}
+\cvitem{2014-2018}{本科\quad太原理工大学}
+
+\section{获得荣誉}
+\cvitem{第三名}{全国大学生互联网大赛}
+
+% \section{致谢}
+\cvitem{}{}
+\cvitem{}{\textbf{感谢您花时间阅读我的简历，非常期待能有机会一起共事！}}
+
+\end{spacing}
+\clearpage\end{CJK*}
+\end{document}
+
+
+%% end of file `template.tex'.
