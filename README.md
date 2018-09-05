@@ -1,3 +1,3 @@
 # Yanng's resume
 
-预览：https://i.yanng.io
+简历预览：https://i.yanng.io
